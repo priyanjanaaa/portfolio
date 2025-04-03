@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanjana Tadepalli - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: #fff;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00c6ff;
+        }
+
+        section {
+            padding: 40px 20px 50px; /* Adjusted to avoid header overlap */
+            text-align: center;
+        }
+
+        .project {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Priyanjana Tadepalli</h1>
+        <p>Computer Science | Machine Learning</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects & Internships</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p></p>
+        <p>A highly motivated Computer Science student and machine learning enthusiast with expertise in Python, SQL, and AI-driven solutions. Skilled in building and optimizing machine learning models, data pipelines, and scalable applications. Passionate about leveraging cutting-edge technologies to design impactful, community-focused systems. Eager to collaborate on innovative projects and continuously learn emerging trends in AI and software development.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Retention Radar</h3>
+            <p>Developed a customer churn prediction model with 84% accuracy using Python and Scikit-Learn. Implemented feature engineering techniques to improve model performance.</p>
+            <p><a href="https://colab.research.google.com/drive/1ACRpFFwtwVmx_Dw7H9ZsOt-Xr91w6ypc" target="_blank" style="color: #00c6ff;">View Full code on Colab</a></p>
+        </div>
+        <div class="project">
+            <h3>Sentiment Analysis</h3>
+            <p>Implemented sentiment analysis using VADER and RoBERTa on Twitter data. Visualized sentiment trends using Matplotlib and Seaborn.</p>
+            <p><a href="https://www.kaggle.com/code/priyanjanat/sentiment-analysis/edit" target="_blank" style="color: #00c6ff;">View Full code on Kaggle</a></p>
+        </div>
+        <div class="project">
+            <h3>E-commerce Website</h3>
+            <p>Leading a team to develop a secure second-hand goods marketplace with user authentication (MongoDB, Express.js), real-time inventory tracking, and a responsive shopping cart for an enhanced user experience. </p>
+            
+        </div>
+
+        <div class="project">
+            <h3>Infosys Springboard Internship</h3>
+            <p>Collected and processed air quality data points (PM2.5, PM10, CO, etc.) across multiple regions and timeframes.Built an interactive Power BI dashboard with 10+ visualizations, trend analysis, and dynamic filters.Developed a Streamlit web app to host the Power BI dashboard, ensuring seamless integration via iframe.</p>
+            
+        </div>
+        <div class="project">
+            <h3>ONGC Internship</h3>
+            <p>Completed an internship at ONGC, analyzing SEGY data using CatBoost regression to predict sandstone, oil, and water saturation; developed a Random Forest model with 80% accuracy for oil deposit prediction; streamlined seismic data processing with SEGYIO; and conducted well log analysis using crossplots for geological insights.</p>
+            
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-box">Python,C++</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">SQL</div>
+        <div class="skill-box">Machine Learning</div>
+        <div class="skill-box">Data Structures</div>
+        <div class="skill-box">Algorithms</div>
+        <div class="skill-box">MongoDB</div>
+        <div class="skill-box">GIT</div>
+        <div class="skill-box">Web Development</div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-box">
+            <h3>Bachelor of Engineering (B.E) in Computer Science</h3>
+            <p>Easwari Engineering College, 2022 - 2026</p>
+            <p>CGPA:8.96</p>
+        </div>
+    </section>
+    
+   <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications-container">
+
+        <div class="certification-box">
+            <h3>Minors in AI</h3>
+            <p>Offered by: IIT Ropar</p>
+            <p>Completion Date: Ongoing</p>
+        </div>
+
+        <div class="certification-box">
+            <h3>Machine Learning</h3>
+            <p>Offered by: Coursera (Stanford University)</p>
+            <p>Completion Date: May 2024</p>
+            <a href="https://coursera.org/share/f22a30a816b3026e5fb955dcfd78cc01" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-box">
+            <h3>Introduction to Cybersecurity</h3>
+            <p>Offered by: Coursera (University of Maryland)</p>
+            <p>Completion Date: June 2023</p>
+            <a href="https://coursera.org/share/fa96ebce1b5914f136f5bde76a944440" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-box">
+            <h3>CCNA: Introduction to Networks</h3>
+            <p>Offered by: CISCO</p>
+            <p>Completion Date: February 2025</p>
+            <a href="https://www.credly.com/badges/692bb383-145b-4f94-92e3-079f08d48bd9" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-box">
+            <h3>Social Networks</h3>
+            <p>Offered by: NPTEL</p>
+            <p>Completion Date: April 2024</p>
+            <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc24-cs56" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="certification-box">
+            <h3>Privacy and Security in Online Social Media</h3>
+            <p>Offered by: NPTEL</p>
+            <p>Completion Date: October 2023</p>
+            <a href="https://archive.nptel.ac.in/noc/B2C/candidate_login/candidate_scores.php?courseid=noc23-cs69" target="_blank">View Certificate</a>
+        </div>
+
+    </div>
+</section>
+
+    
+    
+    
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:tadepallipriyanjana@gmail.com" style="color: #00c6ff;">tadepallipriyanjana@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/priyanjana-tadepalli-488521254/" target="_blank" style="color: #00c6ff;">Profile</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Priyanjana Tadepalli</p>
+    </footer>
+</body>
+</html>
